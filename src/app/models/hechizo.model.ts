@@ -7,8 +7,7 @@
 //   - nivelPoder  → número
 // PISTA: los nombres deben ser IDÉNTICOS a los atributos de HechizoEntity.java (Jackson los usa tal cual).
 export interface Hechizo {
-  id?: number; // Opcional: al crear un hechizo todavía no tiene id.
-  // Escribe aquí los demás campos:
+  id?: number; // Opcional: al crear un hechizo todavía no tiene id, lo asigna la BD.
   nombre: string;
   tipoMagia: string;
   nivelPoder: number;
